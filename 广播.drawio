@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T01:34:29.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="aIpSSUmlwGv5uakeg6gy" version="16.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-05T03:00:39.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2I4VTot9jmcxMuk2KAih" version="16.0.0" type="github" pages="2">
   <diagram id="Q02ze7TgW7J9-6o44FqJ" name="首页">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,8 +39,8 @@
       <root>
         <mxCell id="cJtPXtddHENTnZ-PwpBm-0" />
         <mxCell id="cJtPXtddHENTnZ-PwpBm-1" parent="cJtPXtddHENTnZ-PwpBm-0" />
-        <mxCell id="cJtPXtddHENTnZ-PwpBm-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cJtPXtddHENTnZ-PwpBm-1">
-          <mxGeometry x="10" y="20" width="80" height="80" as="geometry" />
+        <mxCell id="cJtPXtddHENTnZ-PwpBm-2" value="+设备管理&lt;br&gt;-激活码管理&lt;br&gt;-设备一览&lt;br&gt;-设备在线履历&lt;br&gt;-设备广播&lt;br&gt;+广播管理&lt;br&gt;-新增广播&lt;br&gt;+应急广播（单独的模块）&lt;br&gt;-查看在哪天收到了应急广播，处理的结果如何（针对所有设备的广播）&lt;br&gt;+统计管理&lt;br&gt;-统计管理&lt;br&gt;（每个区县包含设备的数量/在线的数量）&lt;br&gt;（每个乡镇包含设备的数量/在线的数量）&lt;br&gt;每个区县处理的应急广播的数量&lt;br&gt;每个乡镇处理的应急播放的数量&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="cJtPXtddHENTnZ-PwpBm-1">
+          <mxGeometry x="10" y="20" width="610" height="610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
