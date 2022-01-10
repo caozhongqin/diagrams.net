@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T01:58:27.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.2.2" etag="SBV-FFwQGLw7im_wHPHX" type="github"><diagram id="ekOpmkY5_bbGRxoW1UZB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-10T07:12:30.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="So9YTyOnkLXVhOnsqGlR" version="16.2.2" type="github">
+  <diagram id="ekOpmkY5_bbGRxoW1UZB" name="Page-1">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CI28nCU2zgi-dRtotHJi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CI28nCU2zgi-dRtotHJi-3" target="CI28nCU2zgi-dRtotHJi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-3" value="定时任务&lt;br&gt;每天凌晨" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CI28nCU2zgi-dRtotHJi-4" target="CI28nCU2zgi-dRtotHJi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-4" value="获取待审核的志愿者&lt;br&gt;select user from v_user where&amp;nbsp;autoAuditStatus = 0 and&amp;nbsp;audisStatus = 0 and&amp;nbsp;roleId = 10 and&amp;nbsp;identity = 2 and&amp;nbsp;creatDate &amp;lt; #{date}" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-11" value="循环未结束" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CI28nCU2zgi-dRtotHJi-6" target="CI28nCU2zgi-dRtotHJi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-19" value="循环完成" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CI28nCU2zgi-dRtotHJi-6" target="CI28nCU2zgi-dRtotHJi-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-6" value="循环" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-13" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CI28nCU2zgi-dRtotHJi-10" target="CI28nCU2zgi-dRtotHJi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-15" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CI28nCU2zgi-dRtotHJi-10" target="CI28nCU2zgi-dRtotHJi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-10" value="判断手输字段是否包含敏感词" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CI28nCU2zgi-dRtotHJi-12" target="CI28nCU2zgi-dRtotHJi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-12" value="&lt;span&gt;autoAuditStatus=1&lt;br&gt;&lt;/span&gt;audisStatus =1&lt;br&gt;&lt;span&gt;auditDate=1&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CI28nCU2zgi-dRtotHJi-14" target="CI28nCU2zgi-dRtotHJi-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="800" />
+              <mxPoint x="70" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-14" value="autoAuditStatus=2&lt;br&gt;autoRejectReason=包含敏感词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CI28nCU2zgi-dRtotHJi-18" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
