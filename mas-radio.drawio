@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T05:46:35.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HUbkBJIRaorfCrWjYUH2" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-13T05:56:33.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="UuuaQayQvUdSgZGS_l4F" version="16.2.6" type="github">
   <diagram id="2nPovjhIuk3LcjY5GIDf" name="Page-1">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,60 @@
         </mxCell>
         <mxCell id="cKkV5t8OmHSfCwwFpSGk-9" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播适配器&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="330" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-11" value="自然灾害" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-12" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;事故灾难&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-13" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;公共卫生&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-14" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;社会安全&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-15" target="cKkV5t8OmHSfCwwFpSGk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-15" target="cKkV5t8OmHSfCwwFpSGk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-15" target="cKkV5t8OmHSfCwwFpSGk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-15" target="cKkV5t8OmHSfCwwFpSGk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-15" value="广播内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-20" value="音频" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-21" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;视频&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-22" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;文字&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-23" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;图片&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-28" target="cKkV5t8OmHSfCwwFpSGk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-28" target="cKkV5t8OmHSfCwwFpSGk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-28" target="cKkV5t8OmHSfCwwFpSGk-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-28" target="cKkV5t8OmHSfCwwFpSGk-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-28" value="广播格式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
