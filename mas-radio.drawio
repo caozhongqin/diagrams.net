@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T05:56:33.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="UuuaQayQvUdSgZGS_l4F" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-13T05:59:14.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3o1Lfrv0NXo_lV02GxyC" version="16.2.6" type="github">
   <diagram id="2nPovjhIuk3LcjY5GIDf" name="Page-1">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,6 +87,39 @@
         </mxCell>
         <mxCell id="cKkV5t8OmHSfCwwFpSGk-28" value="广播格式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-29" target="cKkV5t8OmHSfCwwFpSGk-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-29" target="cKkV5t8OmHSfCwwFpSGk-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-29" target="cKkV5t8OmHSfCwwFpSGk-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-29" target="cKkV5t8OmHSfCwwFpSGk-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-29" target="cKkV5t8OmHSfCwwFpSGk-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-29" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播消息&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-30" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播信息主体文件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-31" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播信息&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;主体签名文件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-32" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播节目资源文件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-33" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播消息指令文件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-34" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播消息指令签名文件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
