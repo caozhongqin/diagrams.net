@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T05:42:20.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.2.6" etag="as63gJ6HlguoBk6QMRnv" type="github"><diagram id="2nPovjhIuk3LcjY5GIDf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-13T05:46:35.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HUbkBJIRaorfCrWjYUH2" version="16.2.6" type="github">
+  <diagram id="2nPovjhIuk3LcjY5GIDf" name="Page-1">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-1" target="cKkV5t8OmHSfCwwFpSGk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.558;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-1" target="cKkV5t8OmHSfCwwFpSGk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播平台制作播发系统&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-2" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;调度控制系统&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-4" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;上下级应急广播平台&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-6" target="cKkV5t8OmHSfCwwFpSGk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-6" target="cKkV5t8OmHSfCwwFpSGk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-6" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应&lt;/span&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;急广播平台&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;广播电视频率频道播出系统&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-9" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播适配器&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
