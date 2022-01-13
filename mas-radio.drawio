@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-13T06:00:26.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="RJD6yh549GQJ937RnYGN" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-13T06:01:02.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="1GC_O7cESlCDrSy-YgG0" version="16.2.6" type="github">
   <diagram id="2nPovjhIuk3LcjY5GIDf" name="Page-1">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,8 +121,20 @@
         <mxCell id="cKkV5t8OmHSfCwwFpSGk-34" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播消息指令签名文件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-40" target="cKkV5t8OmHSfCwwFpSGk-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-40" target="cKkV5t8OmHSfCwwFpSGk-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-40" target="cKkV5t8OmHSfCwwFpSGk-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKkV5t8OmHSfCwwFpSGk-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cKkV5t8OmHSfCwwFpSGk-40" target="cKkV5t8OmHSfCwwFpSGk-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cKkV5t8OmHSfCwwFpSGk-40" value="&lt;div&gt;&lt;span style=&quot;font-size: 10.56pt&quot;&gt;应急广播适配器&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1169" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cKkV5t8OmHSfCwwFpSGk-41" value="接收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="1260" width="120" height="60" as="geometry" />
