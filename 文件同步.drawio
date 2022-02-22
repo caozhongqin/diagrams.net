@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T02:04:21.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.2.6" etag="gLPXPaX9Ib5b5z44igEI" type="github"><diagram id="LO4wycb6kWDOInqsCqOx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T02:11:43.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="I5FVrY6LGiysXlAWaW1Y" version="16.2.6" type="github">
+  <diagram id="LO4wycb6kWDOInqsCqOx" name="Page-1">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-6" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="viBQAfFSvnRa7d4lcDZO-1" target="viBQAfFSvnRa7d4lcDZO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-7" value="下载文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="viBQAfFSvnRa7d4lcDZO-6">
+          <mxGeometry x="-0.0168" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-11" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="viBQAfFSvnRa7d4lcDZO-1" target="viBQAfFSvnRa7d4lcDZO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-12" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="viBQAfFSvnRa7d4lcDZO-1" target="viBQAfFSvnRa7d4lcDZO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-1" value="坚果云" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-3" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="viBQAfFSvnRa7d4lcDZO-2" target="viBQAfFSvnRa7d4lcDZO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-4" value="上传文件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="viBQAfFSvnRa7d4lcDZO-3">
+          <mxGeometry x="-0.3019" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-5" value="文件同步助手安装和配置（定时任务）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-8" value="一体机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-9" value="文件同步助手安装和配置（定时任务）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-10" value="文件同步助手安装和配置（定时任务）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-13" value="一体机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-14" value="一体机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="viBQAfFSvnRa7d4lcDZO-15" value="&lt;h1&gt;坚果云 每月免费1GB上传流量 3GB下载流量 可以购买企业版&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
