@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:11:35.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="dbdJrVOmxopA8hCrLtTS" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T06:12:40.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="85Uefd2-7QM1HbpHQRPP" version="16.6.2" type="github">
   <diagram id="l3UoU12UBDZ79Bp-kKOp" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="DFO-0ac6-ra-kcL9trr5-9" value="【数据】DataUtils" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
           <mxGeometry width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-10" value="获取（订单）最后更新时间&lt;br&gt;String getLastUpdateTime(Context context)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-10" value="1. 获取（订单）最后更新时间&lt;br&gt;String getLastUpdateTime(Context context)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
           <mxGeometry y="30" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DFO-0ac6-ra-kcL9trr5-11" value="将服务器订单表数据全部插入到本地订单表&lt;br&gt;long insertBoxResOrder(Context context, ContentValues contentValues)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
@@ -82,7 +82,7 @@
         <mxCell id="DFO-0ac6-ra-kcL9trr5-32" value="【更新】NewResUpdateTask" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
           <mxGeometry width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-33" value="盒子资源同步&lt;br&gt;5分钟后，执行一次检测服务器资源是否有更新" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-33" value="【数据】1. 获取（订单）最后更新更新时间&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
           <mxGeometry y="30" width="310" height="170" as="geometry" />
         </mxCell>
       </root>
