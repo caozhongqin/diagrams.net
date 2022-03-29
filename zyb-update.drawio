@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:12:40.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="85Uefd2-7QM1HbpHQRPP" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T06:17:38.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="WEcT7UxoshmPDot5Z1ih" version="16.6.2" type="github">
   <diagram id="l3UoU12UBDZ79Bp-kKOp" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,13 +77,13 @@
           <mxGeometry y="150" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DFO-0ac6-ra-kcL9trr5-34" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="380" y="530" width="310" height="200" as="geometry" />
+          <mxGeometry x="380" y="530" width="310" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-32" value="【更新】NewResUpdateTask" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-32" value="【任务】NewResUpdateTask" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
           <mxGeometry width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-33" value="【数据】1. 获取（订单）最后更新更新时间&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
-          <mxGeometry y="30" width="310" height="170" as="geometry" />
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-33" value="定时检测服务器是否有新资源，检测到有，则终止检测任务。只提示一次。&lt;br&gt;&lt;br&gt;&lt;br&gt;while True:&lt;br&gt;【数据】1. 获取（订单）最后更新时间&lt;br&gt;list =【网站】根据最后更新时间和boxId获取设备相关订单&lt;br&gt;if list.size &amp;gt; 0:&lt;br&gt;&amp;nbsp; &amp;nbsp;发送广播：有新资源&lt;br&gt;&amp;nbsp; break&lt;br&gt;else:&lt;br&gt;&amp;nbsp; 沉睡等待下一轮的检测" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
+          <mxGeometry y="30" width="310" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
