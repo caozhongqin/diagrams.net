@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:17:38.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="WEcT7UxoshmPDot5Z1ih" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T06:20:51.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="CyjBcNQx84zEW4Bje26b" version="16.6.2" type="github">
   <diagram id="l3UoU12UBDZ79Bp-kKOp" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry y="270" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DFO-0ac6-ra-kcL9trr5-16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="20" y="370" width="310" height="270" as="geometry" />
+          <mxGeometry x="380" y="550" width="310" height="270" as="geometry" />
         </mxCell>
         <mxCell id="DFO-0ac6-ra-kcL9trr5-9" value="【数据】DataUtils" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
           <mxGeometry width="310" height="30" as="geometry" />
@@ -70,20 +70,26 @@
         <mxCell id="DFO-0ac6-ra-kcL9trr5-28" value="每5分钟发一次心跳(延迟1分钟)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-31">
           <mxGeometry y="30" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-29" value="盒子资源同步&lt;br&gt;5分钟后，执行一次检测服务器资源是否有更新" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-31">
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-29" value="盒子资源同步&lt;br&gt;5分钟后，执行一次检测服务器资源是否有更新&lt;br&gt;new NewResUpdateTask(myInstance);" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-31">
           <mxGeometry y="90" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DFO-0ac6-ra-kcL9trr5-30" value="盒子信息同步，开机一次&lt;br&gt;5分钟后，执行一次同步设备离线数据到服务器" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-31">
           <mxGeometry y="150" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DFO-0ac6-ra-kcL9trr5-34" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="380" y="530" width="310" height="230" as="geometry" />
+          <mxGeometry x="840" y="370" width="310" height="230" as="geometry" />
         </mxCell>
         <mxCell id="DFO-0ac6-ra-kcL9trr5-32" value="【任务】NewResUpdateTask" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
           <mxGeometry width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DFO-0ac6-ra-kcL9trr5-33" value="定时检测服务器是否有新资源，检测到有，则终止检测任务。只提示一次。&lt;br&gt;&lt;br&gt;&lt;br&gt;while True:&lt;br&gt;【数据】1. 获取（订单）最后更新时间&lt;br&gt;list =【网站】根据最后更新时间和boxId获取设备相关订单&lt;br&gt;if list.size &amp;gt; 0:&lt;br&gt;&amp;nbsp; &amp;nbsp;发送广播：有新资源&lt;br&gt;&amp;nbsp; break&lt;br&gt;else:&lt;br&gt;&amp;nbsp; 沉睡等待下一轮的检测" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-34">
           <mxGeometry y="30" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DFO-0ac6-ra-kcL9trr5-29" target="DFO-0ac6-ra-kcL9trr5-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DFO-0ac6-ra-kcL9trr5-10" target="DFO-0ac6-ra-kcL9trr5-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
