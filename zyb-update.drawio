@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T03:52:05.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="IqhobERZhvg-BfyJcRUh" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T03:54:49.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="_0zSWAnxwvnraHluu7hG" version="16.6.2" type="github">
   <diagram id="l3UoU12UBDZ79Bp-kKOp" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,20 +25,38 @@
         <mxCell id="DFO-0ac6-ra-kcL9trr5-7" value="离线更新程序接口&lt;br&gt;&quot;/updateApkAndWebFromUsb/&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-8">
           <mxGeometry y="270" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-9" value="DataUtils" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="370" width="310" height="30" as="geometry" />
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-14" value="UpdateServerActivity" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-10" value="获取（订单）最后更新时间&lt;br&gt;String getLastUpdateTime(Context context)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="400" width="310" height="60" as="geometry" />
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-15" value="1. 软件在线升级" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-11" value="将服务器订单表数据全部插入到本地订单表&lt;br&gt;long insertBoxResOrder(Context context, ContentValues contentValues)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="460" width="310" height="60" as="geometry" />
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="370" width="310" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-12" value="获取未更新（未处理）订单&lt;br&gt;List&amp;lt;BoxResOrder&amp;gt; getBoxResOrder(Context context)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="520" width="310" height="60" as="geometry" />
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-9" value="DataUtils" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
+          <mxGeometry width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DFO-0ac6-ra-kcL9trr5-13" value="更新订单表&lt;br&gt;void updateBoxResOrder(Context context, String id)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="580" width="310" height="60" as="geometry" />
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-10" value="获取（订单）最后更新时间&lt;br&gt;String getLastUpdateTime(Context context)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
+          <mxGeometry y="30" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-11" value="将服务器订单表数据全部插入到本地订单表&lt;br&gt;long insertBoxResOrder(Context context, ContentValues contentValues)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
+          <mxGeometry y="90" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-12" value="获取未更新（未处理）订单&lt;br&gt;List&amp;lt;BoxResOrder&amp;gt; getBoxResOrder(Context context)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
+          <mxGeometry y="150" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-13" value="更新订单表&lt;br&gt;void updateBoxResOrder(Context context, String id)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DFO-0ac6-ra-kcL9trr5-16">
+          <mxGeometry y="210" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-17" value="2. 软件离线升级" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-18" value="3. 资源在线升级" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFO-0ac6-ra-kcL9trr5-19" value="4. 资源离线升级" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
